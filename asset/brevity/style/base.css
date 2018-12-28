@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Brevity */
+body {
+	background: #f5f8fa;
+	color: #4d4d4d;
+	font: 12pt/16pt Corbel, sans-serif;
+}
+
+div#header {
+	background: #262626 url('../image/header-background@2x.png') 0% 0% repeat-x;
+	background-size: 200px 96px;
+	height: 96px;
+}
+
+div#header .photo {
+	float: right;
+}
+
+div#header div.z {
+	background: transparent url('../image/flair@2x.png') 100% 0 no-repeat;
+	background-size: 407px 96px;
+	height: 96px;
+	margin-right: 96px;
+}
+
+div#header div.z div.title {
+	background: #262626 url('../image/title@2x.png') 0% 0 no-repeat;
+	background-size: 400px 96px;
+	height: 96px;
+	width: 400px;
+}
+
+div#header div.z div.title * {
+	display: none;
+}
+
+div#pitch {
+	border-top: 1px solid white;
+	padding-top: 30px;
+}
+
+div#pitch h1 {
+	color: #bfbfbf;
+	font: normal 48.75pt/45pt Calibri, sans-serif;
+	letter-spacing: -1.5pt;
+	margin: 0 116px 50px 20px;
+	text-rendering: optimizeLegibility;
+	text-shadow: 0px 0.75pt 1.5pt rgba(0, 0, 0, 0.25);
+}
+
+div#pitch h1 strong {
+	color: #197acf;
+	font-weight: normal;
+}
+
+div#pitch div {
+	background: #d9d9d9;
+}
+
+div#pitch div p {
+	background: #f5f8fa;
+	margin: 0 115px 0 10px;
+	max-width: 600px;
+	padding: 1px 15px;
+	text-align: justify;
+}
+
+div#body {
+	margin: 0 116px 100px 20px;
+}
+
+div#body h1 {
+	color: #bfbfbf;
+	font: normal 24pt/32pt Calibri, sans-serif;
+	letter-spacing: -1px;
+	margin: 24pt 0 0;
+	text-rendering: optimizeLegibility;
+}
+
+div#body p {
+	margin-bottom: 16pt;
+}
+
+div#body small {
+	font-size: 70%;
+}
+
+div#body a, div#body a:visited {
+	color: #12569b/*#bfbfbf*/;
+	text-decoration: none;
+}
+
+div#body a:hover {
+	color: #197acf/*#125c9b*/;
+}
+
+div#body ul {
+	list-style-type: disc;
+	margin: 0 36pt 16pt;
+}
+
+div#body ul li {
+	line-height: 16pt;
+}
+
+div#footer {
+	background: #125c9b;
+	color: #262626;
+	font: bold 10px/10px Calibri, sans-serif;
+	text-align: right;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+div#footer a, div#footer a:visited, div#footer a:hover {
+	color: #262626;
+	text-decoration: none;
+}
