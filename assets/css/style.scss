@@ -1,0 +1,130 @@
+---
+---
+@charset "utf-8";
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap");
+
+// Brand colours
+$pantoneClassicBlue: rgb(15, 76, 129);
+
+// Option A
+$brandCongressBlueDark: hsla(213, 96, 28, 1);
+$brandCongressBlueLight: hsla(208, 96, 28, 1);
+$brandTacao: hsla(22, 80, 74, 1);
+$brandKenyanCopper: hsla(11, 96, 28, 1);
+$brandAlto: hsla(0, 0, 85, 1);
+
+// Option B
+$brandCardinal: hsla(348, 80, 41, 1);
+$brandVeniceBlue: hsla(202, 96, 28, 1);
+$brandAstronautBlue: hsla(202, 96, 17, 1);
+$brandDaintree: hsla(196, 96, 12, 1);
+$brandPunch: hsla(0, 69, 50, 1);
+
+// Update Bulma's global variables
+$family-sans-serif: "Source Sans Pro", sans-serif;
+$primary: $brandAstronautBlue;
+$link: $pantoneClassicBlue;
+$link-hover: $brandDaintree;
+
+// Extend Bulma's styles
+$weight-black: 900;
+.has-text-weight-black {
+  font-weight: $weight-black !important;
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .is-size-1-tablet-only {
+    font-size: 3rem !important;
+  }
+  .is-size-2-tablet-only {
+    font-size: 2.5rem !important;
+  }
+  .is-size-3-tablet-only {
+    font-size: 2rem !important;
+  }
+  .is-size-4-tablet-only {
+    font-size: 1.5rem !important;
+  }
+  .is-size-5-tablet-only {
+    font-size: 1.25rem !important;
+  }
+  .is-size-6-tablet-only {
+    font-size: 1rem !important;
+  }
+  .is-size-7-tablet-only {
+    font-size: 0.75rem !important;
+  }
+}
+
+// Import Bulma
+@import "bulma-0.9.1/bulma.sass";
+
+// Brand styles
+.hero-decorative-image {
+  background-image: url("../image/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.hero {
+  @include mobile {
+    background-image: linear-gradient(rgba($body-background-color, 0.95), rgba($body-background-color, 0.95)), url("../image/hero.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .title {
+    // font-size: 4rem;
+    div {
+      line-height: 1;
+    }
+  }
+  .subtitle {
+    margin-top: 0.5rem;
+    padding-left: 0.1rem;
+    @include tablet {
+      ul {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        li:not(:last-child)::after {
+          content: "·";
+          margin: auto 1rem;
+        }
+      }
+    }
+  }
+}
+
+.hero-foot {
+  margin: 1.5rem;
+  .container {
+    border-top: $hr-height solid $hr-background-color;
+    padding: 1rem 0 0;
+    .columns.is-gapless {
+      .column {
+        padding-right: 0 1rem !important;
+      }
+    }
+  }
+}
+
+.section {
+  .columns {
+    align-items: baseline;
+    .column:first-child {
+      @include desktop {
+        padding-right: 3rem;
+      }
+    }
+  }
+}
+
+.content {
+  ul {
+    @include tablet {
+      column-count: 2;
+      column-gap: 3rem;
+    }
+  }
+}
