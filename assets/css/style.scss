@@ -36,7 +36,7 @@ $weight-black: 900;
 .has-text-weight-black {
   font-weight: $weight-black !important;
 }
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1023px), print {
   .is-size-1-tablet-only {
     font-size: 3rem !important;
   }
@@ -59,9 +59,8 @@ $weight-black: 900;
     font-size: 0.75rem !important;
   }
 }
-
-.column.is-half-tablet-only {
-  @include tablet-only {
+@media screen and (min-width: $tablet) and (max-width: $desktop - 1px), print {
+  .column.is-half-tablet-only {
     flex: none;
     width: 50%;
   }
