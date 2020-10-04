@@ -23,7 +23,7 @@ plugins:
 
 # Custom vars
 version:              0.1.0
-google_analytics_id:  # TBD
+google_analytics_id:  UA-24292859-1
 
 # Front-matter defaults
 defaults:
