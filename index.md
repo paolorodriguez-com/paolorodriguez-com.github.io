@@ -3,18 +3,18 @@ layout: home
 title: Home
 ---
 
+### Senior Project Manager
+#### E.ON Energy, npower Limited (United Kingdom) / Gentrack, 2020 to present
+* Migration of accounts from heritage systems into Gentrack Junifer, a flexible and scalable billing and customer information system for utility providers
+* Implementation for the combined E.ON Energy and npower Limited business
+
 ### Data and Information Lead
-#### EDF Energy Nuclear New Build (United Kingdom) / Accenture, 2020 to present
+#### EDF Energy Nuclear New Build (United Kingdom) / Accenture, 2020
 * Accountable for the overall delivery of data and information in the materials management programme for the asset management and supplier systems of the HPC nuclear power station
 * Leads a combined team of 30+ people comprised of internal Accenture personnel, external Capgemini personnel, EDF architects and SMEs, and senior Hinkley Point C stakeholders
 * Scope includes gathering and processing of sensitive plans, contracts, and materials data, existing inventory data, electronic information from disparate systems, and using a machine learning / artificial intelligence solution to perform ETL of unstructured and disjoint information into a unified platform, for migration into the AS9 solution
 * Delivered interim and enduring end-to-end data process designs, data lineage, and data models
 * Led data governance sessions covering 5+ priority galleries / facilities and 10+ systems
-Smart QA and Audit Lead
-Energia Group (Republic of Ireland / United Kingdom) / Accenture, 2020
-* Led the QA and Audit team to assess the quality and investigate concerns around the delivery and implementation of Energia’s Smart programme by Wipro
-* Ran and delivered programme assurance processes encompassing the overall health of the programme, for leadership, senior stakeholders, and the steering committee
-* Performed extensive investigation to find the root causes of governance and technical solution delivery issues, providing the risks and impacts, and possible mitigations
 
 ### Smart QA and Audit Lead
 #### Energia Group (Republic of Ireland / United Kingdom) / Accenture, 2020
